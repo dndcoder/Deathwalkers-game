@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="64" tileheight="64" infinite="0" nextlayerid="6" nextobjectid="4">
+ <tileset firstgid="1" source="spritesheet_tiles.tsx"/>
+ <layer id="1" name="ground" width="50" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBwFj0mAJZbQhGwsQPMzFQ1u10qw212k4f6W0AAPAA7AEa5l7fYa0URw73MozoaGWPRcNkZpepXVgvX+2nBeD2OuKkVGgLgGwJAGAJwQgA6BGCU8iEAFwKQIQAWAiBCAEzXx4KKFBmcI40x+SV18cgICXHENuaz3Z/5jbjnSTVdH/urY0byNxlITu27qzhOJEudJzOjMNFDYUiNUXIibZl4McPSFffRtAQtL/bu2cobIp3cCXQaJJWrnw4NolT3vYXVpfQScu1uaz9pyPI9jQwP3ijHEe0GwUyUmkqymnIGD/FO+mNZnj6zs+1W0EyDPqXKP9tkfNZSMTnYzC8xR5mFVhKnx4OleczTNov0vTp9FRaCPahy4ic9NADCCBCKQ2kibH4SIBHEyYJ0lkjR/wtYitc940+c2W9QmqZW6fSErFG/hIOdSle4ItfleiG/LVEmsEbpjPmc1B9zxtNGsoUewUp3UAPLyLHk50q7Ax1BOm95CI7JKz4P8Wf2qgPLM+LnRL8FZSdueFn8sBdwI9h8mEYeZMsPmlcPwBXpumZZi8nMaVzKe/UOW8r7ei/nZhYYuv19fR7YUf5+/ZPH89O74q9jL6npcU3zNRsi9IXgZs+JTzQ1mb/6t7tzjO74zKWOlOW9Xr0y9Ld8Ak81ej55fb2FkWJvLJao03WevhP7Gv7bN/03+AZ3TzHhZLfF8K94DnzTxuV4T5MvjcJVy2ZdZ2lD6B+nVvv4JW00sH4zHvvze/bjO6rr8vT9n8DTT+pPpQccS025+6cZvA1f9go93B963EM7mBcWfPrURrXvHftbo59gir8sPv+rPkt1QLZ1MpdH/83n9vMD1SHRW9wuY0MGM3onAoxSP5Q/xVVHrbGJmRcPgPRXYniY4iqkgzJ/dGvbehf/UTrbZ1CeHcNzfE/OQ8jqsneztv3T/hp8e7LfA3PKRw+99t/FH0tq0Ua+P/GnX5o9xtE+1i4+UP/jdSzwQ0Y4nX5tR2Z+PSd/4i76j651/ubh8K+ZY4A39zzvw+5Ma2z3+Gnq/yLqk55Z7789Z6E3hEdP8O/Jx+Nz4LW6GZzafJR1n+YcgueTMaR2t0wX/k3fHTIljJT3/uGOHVSf9bYucsgYtjj4gM809J3VmpGLHtDll7j/tOf2K/+Pjve0hm4xPvbw26ae2INe0lu9Qj/7ouBontiHXbtZPpp35WseBe7deePyU5sf/TvGXR8HB+wa5WM/nM4r3QI3Pck1Dgd70J3DJ3z6HzBFOE8HYX/FbIB3oFspC3BcvLQcgQ+z+GTq0VH1+Zabb+fcMDBLG4e/TbztdTpr/+OS9s85dCbEG93sbtR2s5MycJ79sTfxp920zQwguq7PNj/9n6b+lv56f4TLdaU/4KYkbNuHkqOAHSbdNRs3KozuZpztfkc7sbaD7+Ar/J/QvsV4uft+rTnE/3TFRxjH4umdm0Nhxs/r4XUxBugtHKf8lZ7/ll/l0v/sGOPTFm8D8eeX8AC0uv+9oEfjNbP0YgcUw0Hef+l2X2lCuVQHT8njrsQD/dmUPJijwcaPgtV7W082bT/3Xuzy5tsLxcHGkz/azg958BH/Gz6wk/ztyJ3lRE/L5XTiZf/W3bAHDyr/1/93pjvzoODC7LfvuPn9
+  </data>
+ </layer>
+ <layer id="4" name="items" width="50" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBwFq0AACAAALcBBACNlqaCBqDAdieeoB5gAQ==
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="50" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBwFqUAACAAANMBBABZLyRIDSrw3YmPpgdY
+  </data>
+ </layer>
+ <layer id="3" name="decorations" width="50" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBwFk0AABAAAAEAa9cDLA==
+  </data>
+ </layer>
+ <objectgroup id="5" name="obstacles">
+  <object id="1" name="player" x="2903.37" y="1738.2" width="68.5393" height="69.6629"/>
+  <object id="2" name="wall" x="2248" y="1579" width="941" height="14"/>
+  <object id="3" name="wall" x="2245.5" y="1898" width="941" height="14"/>
+ </objectgroup>
+</map>

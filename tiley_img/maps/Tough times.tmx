@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="64" tileheight="64" infinite="0" nextlayerid="9" nextobjectid="26">
+ <tileset firstgid="1" source="../../../pygame_tutorials-master/pygame_tutorials-master/tilemap/working/maps/spritesheet_tiles.tsx"/>
+ <tileset firstgid="541" source="../../../pygame_tutorials-master/pygame_tutorials-master/tilemap/working/maps/Blood and Other.tsx"/>
+ <tileset firstgid="545" source="Cemetery.tsx"/>
+ <tileset firstgid="550" source="spritesheet_tiles.tsx"/>
+ <layer id="1" name="ground" width="50" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBwFk0CAMABAAAAkQEfAQAAbVIBAABOAQAAblMBKgISoGCDhS0H4ALdUgdF5RdUP80luYAZotIHFnfYa2lVmSn8Dly2ijeVwJnisb9tddg=
+  </data>
+ </layer>
+ <layer id="8" name="decorations" width="50" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBwFk0AABAAAAEAa9cDLA==
+  </data>
+ </layer>
+ <layer id="3" name="items" width="50" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBwFs0CAHQCpQIAAIEAAACCAAcBAAC1AAAAtgDVAAAAndAAAADRAAAAnH8iIyEkEiDAgqoJ9TGBHrbNPRdHOhj2G9JmK2At02GhBb/ysABqGdJjw+8Ni1PwZVJJWRVE
+  </data>
+ </layer>
+ <layer id="2" name="walls" width="50" height="30">
+  <data encoding="base64" compression="zstd">
+   KLUv/WBwFuUCABQDpAIAACMBAAAkAQAAJQEAAFkCAACLAgAAwj4BAAC1AAAAtgDzAAAA0AAAANEA8wAAoA8A8QM9lKtJATgQY0D08gBgDS4LDJDiA0Fg40XA0gzYIAVhCyiLWHVE
+  </data>
+ </layer>
+ <objectgroup id="6" name="Obstacles">
+  <object id="1" name="wall" x="154.148" y="1106.44" width="78.7868" height="85.6378"/>
+  <object id="2" name="wall" x="340.839" y="1108.15" width="78.7868" height="85.6378"/>
+  <object id="3" name="wall" x="542.944" y="1115" width="78.7868" height="85.6378"/>
+  <object id="4" name="wall" x="745.049" y="1115" width="78.7868" height="85.6378"/>
+  <object id="5" name="wall" x="731.347" y="1310.26" width="78.7868" height="85.6378"/>
+  <object id="6" name="wall" x="731.347" y="1491.81" width="78.7868" height="85.6378"/>
+  <object id="7" name="wall" x="731.347" y="1690.49" width="78.7868" height="85.6378"/>
+  <object id="8" name="wall" x="727.921" y="1872.04" width="78.7868" height="37.6806"/>
+  <object id="9" name="wall" x="1296.56" y="73.6485" width="479.572" height="167.85"/>
+  <object id="10" name="player" x="77.074" y="1560.32" width="34.2551" height="34.2551"/>
+  <object id="11" name="zombie" x="335.7" y="931.74" width="34.2551" height="34.2551"/>
+  <object id="12" name="zombie" x="1092.74" y="1055.06" width="34.2551" height="34.2551"/>
+  <object id="13" name="zombie" x="986.548" y="1503.8" width="34.2551" height="34.2551"/>
+  <object id="14" name="zombie" x="582.337" y="859.804" width="34.2551" height="34.2551"/>
+  <object id="15" name="zombie" x="1106.44" y="1147.55" width="34.2551" height="34.2551"/>
+  <object id="16" name="zombie" x="859.804" y="1647.67" width="34.2551" height="34.2551"/>
+  <object id="17" name="zombie" x="890.633" y="733.06" width="34.2551" height="34.2551"/>
+  <object id="18" name="zombie" x="2236.86" y="661.124" width="34.2551" height="34.2551"/>
+  <object id="19" name="zombie" x="2202.6" y="989.973" width="34.2551" height="34.2551"/>
+  <object id="20" name="zombie" x="1688.78" y="506.976" width="34.2551" height="34.2551"/>
+  <object id="21" name="zombie" x="2010.78" y="445.317" width="34.2551" height="34.2551"/>
+  <object id="22" name="zombie" x="2459.52" y="599.465" width="34.2551" height="34.2551"/>
+  <object id="23" name="zombie" x="2791.79" y="719.358" width="34.2551" height="34.2551"/>
+  <object id="24" name="zombie" x="1983.37" y="123.318" width="34.2551" height="34.2551"/>
+  <object id="25" name="zombie" x="1007.1" y="157.574" width="34.2551" height="34.2551"/>
+ </objectgroup>
+ <objectgroup id="7" name="breakables"/>
+</map>
