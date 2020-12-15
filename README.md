@@ -1,2 +1,2 @@
 # Deathwalkers-game
-This is a zombie top down shooter game.
+This is a zombie top down shooter game. In it, you must run around, collecting health packs when you need them and shooting zombies. Space to shoot, forwards and backwards to move the way you are pointing, and arrow keys to rotate. Press enter for Menu, and n for night mode. H is a developer's key. The menu is still being updated, so I wouldn't reccommend it yet, but have fun learning to use this game!
